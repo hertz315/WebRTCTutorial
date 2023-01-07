@@ -15,6 +15,9 @@
 		E02579162967FE0E00EB89EB /* SignupVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E02579152967FE0E00EB89EB /* SignupVC.swift */; };
 		E0257918296853F100EB89EB /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0257917296853F100EB89EB /* OnboardingView.swift */; };
 		E025791C29685F7000EB89EB /* SignupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E025791B29685F7000EB89EB /* SignupView.swift */; };
+		E025791F296976CF00EB89EB /* UITextField+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = E025791E296976CF00EB89EB /* UITextField+Ext.swift */; };
+		E02579222969A25500EB89EB /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E02579212969A25500EB89EB /* HomeView.swift */; };
+		E02579242969A26700EB89EB /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E02579232969A26700EB89EB /* HomeVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +30,9 @@
 		E02579152967FE0E00EB89EB /* SignupVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupVC.swift; sourceTree = "<group>"; };
 		E0257917296853F100EB89EB /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 		E025791B29685F7000EB89EB /* SignupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupView.swift; sourceTree = "<group>"; };
+		E025791E296976CF00EB89EB /* UITextField+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField+Ext.swift"; sourceTree = "<group>"; };
+		E02579212969A25500EB89EB /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		E02579232969A26700EB89EB /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +66,7 @@
 		E02578FA2967F11E00EB89EB /* WebRTCPractice */ = {
 			isa = PBXGroup;
 			children = (
+				E025791D296976B200EB89EB /* Helper */,
 				E02579112967F26100EB89EB /* Models */,
 				E02579102967F25C00EB89EB /* ViewModels */,
 				E025790F2967F25400EB89EB /* Views */,
@@ -74,6 +81,7 @@
 		E025790F2967F25400EB89EB /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				E02579202969A23E00EB89EB /* Home */,
 				E025791A29685F5800EB89EB /* Signup */,
 				E02579192968546700EB89EB /* Onboarding */,
 			);
@@ -110,6 +118,23 @@
 				E025791B29685F7000EB89EB /* SignupView.swift */,
 			);
 			path = Signup;
+			sourceTree = "<group>";
+		};
+		E025791D296976B200EB89EB /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				E025791E296976CF00EB89EB /* UITextField+Ext.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		E02579202969A23E00EB89EB /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				E02579232969A26700EB89EB /* HomeVC.swift */,
+				E02579212969A25500EB89EB /* HomeView.swift */,
+			);
+			path = Home;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -190,7 +215,10 @@
 				E025791C29685F7000EB89EB /* SignupView.swift in Sources */,
 				E02579002967F11E00EB89EB /* OnboardingVC.swift in Sources */,
 				E02578FC2967F11E00EB89EB /* AppDelegate.swift in Sources */,
+				E02579242969A26700EB89EB /* HomeVC.swift in Sources */,
+				E025791F296976CF00EB89EB /* UITextField+Ext.swift in Sources */,
 				E02579162967FE0E00EB89EB /* SignupVC.swift in Sources */,
+				E02579222969A25500EB89EB /* HomeView.swift in Sources */,
 				E0257918296853F100EB89EB /* OnboardingView.swift in Sources */,
 				E02578FE2967F11E00EB89EB /* SceneDelegate.swift in Sources */,
 			);
